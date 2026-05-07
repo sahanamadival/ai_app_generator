@@ -8,7 +8,7 @@ export interface CompileResponse {
 }
 
 export const compileApp = async (prompt: string): Promise<CompileResponse> => {
-  const res = await fetch("http://localhost:8000/api/compile", {
+  const res = await fetch("https://ai-app-generator-g0zx.onrender.com/api/compile", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ prompt }),
@@ -31,7 +31,7 @@ export interface SimulateResponse {
 }
 
 export const simulateApp = async (schema: any): Promise<SimulateResponse> => {
-  const res = await fetch("http://localhost:8000/api/simulate", {
+  const res = await fetch("https://ai-app-generator-g0zx.onrender.com/api/simulate", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(schema),

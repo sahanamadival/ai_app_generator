@@ -1,0 +1,56 @@
+{
+  "real_prompts": [
+    "Build a CRM with login, contacts, dashboard, role-based access, and premium plan with payments. Admins can see analytics.",
+    "Create an e-commerce platform with product listings, a shopping cart, user reviews, and an admin panel to manage inventory.",
+    "Design a social media app where users can post text, like posts, and follow other users.",
+    "Build a task management system with boards, lists, cards, and user assignments.",
+    "Create a blog platform with authors, posts, categories, tags, and comments.",
+    "Build a healthcare patient portal where patients can view their medical records, message doctors, and schedule appointments.",
+    "Design a real estate listing platform with properties, agents, search filters, and a contact form.",
+    "Create a restaurant reservation system with tables, time slots, customer profiles, and a staff dashboard.",
+    "Build a ride-sharing app backend with riders, drivers, ride requests, locations, and payment processing.",
+    "Design an online learning platform with courses, modules, video lessons, student progress tracking, and quizzes."
+  ],
+  "edge_cases": [
+    {
+      "prompt": "I need an app.",
+      "type": "vague"
+    },
+    {
+      "prompt": "Build a CRM where users can see contacts but there's no database table for contacts.",
+      "type": "conflicting"
+    },
+    {
+      "prompt": "Create a system where only admins can login, but users can register and login.",
+      "type": "conflicting"
+    },
+    {
+      "prompt": "App with just a dashboard.",
+      "type": "incomplete"
+    },
+    {
+      "prompt": "Build a medical app with patients and doctors. The UI must call an API that doesn't exist.",
+      "type": "conflicting"
+    },
+    {
+      "prompt": "Make something cool with AI.",
+      "type": "vague"
+    },
+    {
+      "prompt": "A messaging app where you can't send messages but you can read them.",
+      "type": "conflicting"
+    },
+    {
+      "prompt": "E-commerce site but without products.",
+      "type": "incomplete"
+    },
+    {
+      "prompt": "Users can upload photos, but the app has no database and no API.",
+      "type": "conflicting"
+    },
+    {
+      "prompt": "Just give me the UI schema for a settings page, ignore everything else.",
+      "type": "incomplete"
+    }
+  ]
+}

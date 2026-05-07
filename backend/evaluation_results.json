@@ -1,0 +1,193 @@
+{
+  "summary": {
+    "Total Prompts": 20,
+    "Success Rate": "15.0%",
+    "Average Retries per Request": 0.0,
+    "Average Latency": "3.13s",
+    "Failure Types": {
+      "JSON Schema Validation Failure": 17
+    }
+  },
+  "details": [
+    {
+      "prompt": "Build a CRM with login, contacts, dashboard, role-based access, and premium plan with payments. Admins can see analytics.",
+      "success": true,
+      "retries": 0,
+      "latency_seconds": 6.11,
+      "stages_count": 4,
+      "failure_type": "None",
+      "error": null
+    },
+    {
+      "prompt": "Create an e-commerce platform with product listings, a shopping cart, user reviews, and an admin panel to manage inventory.",
+      "success": true,
+      "retries": 0,
+      "latency_seconds": 5.72,
+      "stages_count": 4,
+      "failure_type": "None",
+      "error": null
+    },
+    {
+      "prompt": "Design a social media app where users can post text, like posts, and follow other users.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 20.97,
+      "stages_count": 3,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 10972, Requested 4215. Please try again in 15.935s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Build a task management system with boards, lists, cards, and user assignments.",
+      "success": true,
+      "retries": 0,
+      "latency_seconds": 21.28,
+      "stages_count": 4,
+      "failure_type": "None",
+      "error": null
+    },
+    {
+      "prompt": "Create a blog platform with authors, posts, categories, tags, and comments.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 4.32,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97541, Requested 2795. Please try again in 4m50.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Build a healthcare patient portal where patients can view their medical records, message doctors, and schedule appointments.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.13,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97541, Requested 2799. Please try again in 4m53.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Design a real estate listing platform with properties, agents, search filters, and a contact form.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 1.91,
+      "stages_count": 2,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98069, Requested 2776. Please try again in 12m10.079999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Create a restaurant reservation system with tables, time slots, customer profiles, and a staff dashboard.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.13,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98069, Requested 2267. Please try again in 4m50.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Build a ride-sharing app backend with riders, drivers, ride requests, locations, and payment processing.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.13,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98069, Requested 2799. Please try again in 12m29.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Design an online learning platform with courses, modules, video lessons, student progress tracking, and quizzes.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.13,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98069, Requested 2799. Please try again in 12m29.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "I need an app.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.13,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98069, Requested 2784. Please try again in 12m16.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Build a CRM where users can see contacts but there's no database table for contacts.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.13,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98069, Requested 2796. Please try again in 12m27.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Create a system where only admins can login, but users can register and login.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.14,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98068, Requested 2795. Please try again in 12m25.632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "App with just a dashboard.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.12,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98068, Requested 2254. Please try again in 4m38.208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Build a medical app with patients and doctors. The UI must call an API that doesn't exist.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.13,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98068, Requested 2268. Please try again in 4m50.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Make something cool with AI.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.12,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98068, Requested 2785. Please try again in 12m16.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "A messaging app where you can't send messages but you can read them.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.12,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98068, Requested 2794. Please try again in 12m24.767999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "E-commerce site but without products.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.13,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98068, Requested 2786. Please try again in 12m17.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Users can upload photos, but the app has no database and no API.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.13,
+      "stages_count": 1,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98068, Requested 2794. Please try again in 12m24.767999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "prompt": "Just give me the UI schema for a settings page, ignore everything else.",
+      "success": false,
+      "retries": 0,
+      "latency_seconds": 0.71,
+      "stages_count": 2,
+      "failure_type": "JSON Schema Validation Failure",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kqxxtnc1fm7rk4axh9az01tb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98561, Requested 2755. Please try again in 18m57.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    }
+  ]
+}
